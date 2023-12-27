@@ -19,6 +19,8 @@
   min-block-size: 100dvb;
   font-family: var(--main-font), sans-serif;
   font-variation-settings: var(--main-font-weight);
+  background: var(--background-gradient);
   background-color: var(--main-background-color);
+  background-attachment: fixed;
   color: var(--accent-color);
 }
