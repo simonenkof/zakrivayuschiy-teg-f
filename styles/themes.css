@@ -5,10 +5,22 @@
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
 
-.page.theme-light {
+:root.theme-light {
   --main-font-weight: "wght" 400;
+  --main-background-color: #fff;
+  --accent-color: #000;
 }
 
-.page.theme-dark {
+:root.theme-dark {
   --main-font-weight: "wght" 465;
+  --main-background-color: #000;
+  --accent-color: #00cc14;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-font-weight: "wght" 465;
+    --main-background-color: #fff;
+    --accent-color: #00cc14;
+  }
 }
