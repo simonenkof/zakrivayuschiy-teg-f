@@ -123,7 +123,7 @@
   font-family: var(--main-font);
   font-size: 18px;
   font-weight: 400;
-  line-height: 1.3125rem;
+  line-height: 116.667%;
 }
 
 .card__button-container {
@@ -149,4 +149,34 @@
   font-size: 14px;
   padding: 9px 17px;
   line-height: 90%;
+}
+
+.footer__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--main-background-color);
+  border: 2px solid var(--accent-color);
+  font-family: var(--accent-font);
+  font-size: 14px;
+  line-height: 90%;
+  padding: 15px 20px;
+}
+
+.button-image {
+  inline-size: 21px;
+  block-size: 21px;
+}
+
+@media (width <= 375px) {
+  .footer__button {
+    flex-direction: column;
+    padding: 15px 20px;
+  }
+
+  .button-image {
+    inline-size: 28px;
+    block-size: 28px;
+  }
 }
