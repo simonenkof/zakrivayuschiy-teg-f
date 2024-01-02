@@ -1,7 +1,7 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --main-font: "Inter";
-  --accent-font: "PressStart2P";
+  --main-font: "Inter", sans-serif;
+  --accent-font: "PressStart2P", sans-serif;
   --main-background-color: #fff;
   --accent-color: #000;
   --background-gradient: repeating-linear-gradient(
@@ -11,6 +11,5 @@
     ),
     repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
     linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
-  --header-width: 696px;
-  --header-height: 364px;
+  --card-width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
 }
