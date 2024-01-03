@@ -4,6 +4,7 @@
   --accent-font: "PressStart2P", sans-serif;
   --main-background-color: #fff;
   --accent-color: #000;
+  --stroke-color: #fff;
   --background-gradient: repeating-linear-gradient(
       to right,
       #d3d3d3 0 2px,
