@@ -6,6 +6,8 @@
   --accent-color: #000;
   --stroke-color: #fff;
   --text-difference-color: #fff;
+  --heart-contour-color: #000;
+  --heart-sparks-color: #ff0000;
   --background-gradient: repeating-linear-gradient(
       to right,
       #d3d3d3 0 2px,

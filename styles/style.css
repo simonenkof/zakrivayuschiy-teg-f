@@ -226,6 +226,10 @@
   transition: border 0.3s ease;
 }
 
+.sparks {
+  opacity: 0;
+}
+
 .card__like-button {
   position: relative;
   background: transparent;
