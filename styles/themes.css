@@ -12,6 +12,7 @@
   --stroke-color: #fff;
   --text-difference-color: #fff;
   --heart-contour-color: #000;
+  --heart-sparks-color: #ff0000;
   --background-gradient: repeating-linear-gradient(
       to right,
       #d3d3d3 0 2px,
@@ -28,6 +29,7 @@
   --stroke-color: #000;
   --text-difference-color: #00cc14;
   --heart-contour-color: #00cc14;
+  --heart-sparks-color: #ff0000;
   --background-gradient: repeating-linear-gradient(
       to right,
       #000 0 2px,
