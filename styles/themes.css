@@ -10,6 +10,7 @@
   --main-background-color: #fff;
   --accent-color: #000;
   --stroke-color: #fff;
+  --text-difference-color: #fff;
   --background-gradient: repeating-linear-gradient(
       to right,
       #d3d3d3 0 2px,
@@ -24,6 +25,7 @@
   --main-background-color: #000;
   --accent-color: #00cc14;
   --stroke-color: #000;
+  --text-difference-color: #00cc14;
   --background-gradient: repeating-linear-gradient(
       to right,
       #000 0 2px,
