@@ -34,10 +34,10 @@
   align-items: center;
   flex-direction: column;
   background: var(--main-background-color);
-  padding-block-start: 136px;
   padding-block-end: 25px;
   margin-block-start: 102px;
-  margin-block-end: 104px;
+  margin-block-end: 100px;
+  block-size: 368px;
 }
 
 .card-width {
@@ -72,7 +72,8 @@
   justify-content: center;
   align-items: start;
   flex-direction: column;
-  gap: 14px;
+  gap: 8px;
+  margin-inline-start: 18px;
 }
 
 .theme-menu__button {
@@ -132,10 +133,21 @@
   transform: scaleX(1);
 }
 
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 51px;
+}
+
 .card {
   display: grid;
   grid-template-rows: auto;
   background: var(--main-background-color);
+}
+
+.card:last-child {
   margin-block-end: 54px;
 }
 
@@ -143,7 +155,8 @@
   padding: 5px 10px;
   font-family: var(--main-font);
   font-size: 18px;
-  font-weight: 700;
+  font-variation-settings: "wght" 700;
+  block-size: 31px;
 }
 
 .image-container {
@@ -151,7 +164,31 @@
 }
 
 .card__image {
-  max-width: 100%;
+  block-size: 696px;
+}
+
+.image-bright {
+  filter: brightness(200%);
+}
+
+.image-contrast {
+  filter: contrast(20%);
+}
+
+.image-blur {
+  filter: blur(10px);
+}
+
+.image-grayscale {
+  filter: grayscale(0.8);
+}
+
+.image-saturate {
+  filter: saturate(158%);
+}
+
+.image-multi-filter {
+  filter: sepia(80%) invert(0.7);
 }
 
 .card__label {
@@ -190,7 +227,6 @@
 .card__text {
   font-family: var(--main-font);
   font-size: 18px;
-  font-weight: 400;
   line-height: 116.667%;
 }
 
@@ -199,7 +235,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 12px;
+  gap: 6px;
   margin-block-end: 25px;
   margin-inline-end: 25px;
 }
@@ -463,6 +499,23 @@
 }
 
 @media (width <= 375px) {
+  .header {
+    inline-size: 100%;
+  }
+
+  .header__theme-menu {
+    block-size: 327px;
+  }
+
+  .card__title {
+    font-variation-settings: "wght" 785;
+    block-size: 100%;
+  }
+
+  .card__image {
+    block-size: 371px;
+  }
+
   .footer__button {
     flex-direction: column;
     padding: 15px 20px;
