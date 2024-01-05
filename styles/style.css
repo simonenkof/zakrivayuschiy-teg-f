@@ -80,7 +80,7 @@
   background: transparent;
   border: none;
   font-family: var(--accent-font);
-  font-size: 14px;
+  font-size: var(--main-font-size);
   text-transform: uppercase;
 }
 
@@ -159,7 +159,7 @@
   top: 25px;
   right: 25px;
   font-family: var(--accent-font);
-  font-size: 14px;
+  font-size: var(--main-font-size);
   text-transform: uppercase;
   opacity: 0.5;
   mix-blend-mode: hard-light;
@@ -297,7 +297,7 @@
   background: transparent;
   border: 2px solid var(--accent-color);
   font-family: var(--accent-font);
-  font-size: 14px;
+  font-size: var(--main-font-size);
   min-block-size: 38px;
   min-inline-size: 130px;
 }
@@ -340,7 +340,7 @@
   background-color: var(--main-background-color);
   border: 2px solid var(--accent-color);
   font-family: var(--accent-font);
-  font-size: 14px;
+  font-size: var(--main-font-size);
   line-height: 90%;
   padding: 15px 20px;
 }
@@ -404,7 +404,7 @@
 
 .text-container__text {
   font-family: var(--accent-font);
-  font-size: 14px;
+  font-size: var(--main-font-size);
   line-height: 150%;
   text-transform: uppercase;
 }
@@ -423,7 +423,7 @@
   background: transparent;
   border: 2px solid var(--accent-color);
   font-family: var(--accent-font);
-  font-size: 14px;
+  font-size: var(--main-font-size);
   text-transform: uppercase;
   inline-size: 100%;
   block-size: 100%;

@@ -2,6 +2,7 @@
 :root {
   --main-font: "Inter", sans-serif;
   --accent-font: "PressStart2P", sans-serif;
+  --main-font-size: 14px;
   --main-background-color: #fff;
   --accent-color: #000;
   --stroke-color: #fff;
