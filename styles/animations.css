@@ -12,3 +12,81 @@
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
+
+.like-icon:hover .core {
+  fill: var(--heart-contour-color);
+  transition: fill 0.3s linear 0.03s;
+}
+
+.like-icon:hover .main-body {
+  opacity: 1;
+  fill: var(--heart-contour-color);
+  transition: opacity 0.3s, fill 0.3s linear 0.05s;
+}
+
+.like-icon:active .core {
+  fill: var(--heart-sparks-color);
+  transition: fill 0.3s linear 0.03s;
+}
+
+.like-icon:active .main-body {
+  opacity: 1;
+  fill: var(--heart-sparks-color);
+  transition: opacity 0.3s, fill 0.3s linear 0.05s;
+}
+
+.like-icon.is-liked .core {
+  fill: var(--heart-sparks-color);
+  transition: fill 0.3s linear 0.03s;
+}
+
+.like-icon.is-liked .main-body {
+  opacity: 1;
+  fill: var(--heart-sparks-color);
+  transition: opacity 0.3s, fill 0.3s linear 0.05s;
+}
+
+.like-icon.is-liked .contour {
+  fill: var(--heart-sparks-color);
+  transition: fill 0.3s linear 0.05s;
+}
+
+.like-icon.is-liked .heart {
+  animation: heartIncrease 0.3s ease-in 0.1s both;
+}
+
+.like-icon.is-liked .sparks {
+  animation: showSparks 0.3s ease-in 0.3s both;
+}
+
+@keyframes arrowMoving {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(4px);
+  }
+}
+
+@keyframes heartIncrease {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  99.99% {
+    transform: scale(1.5);
+  }
+}
+
+@keyframes showSparks {
+  0%,
+  100% {
+    opacity: 0;
+  }
+
+  99.99% {
+    opacity: 1;
+  }
+}
