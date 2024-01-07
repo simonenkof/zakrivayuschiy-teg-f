@@ -158,6 +158,7 @@
   position: relative;
   border-block-start: 2px solid var(--accent-color);
   border-block-end: 2px solid var(--accent-color);
+  block-size: 99%;
 }
 
 .card__image {
@@ -323,7 +324,7 @@
 }
 
 .save-memory {
-  margin-block-end: 54px;
+  margin-block-end: 105px;
 }
 
 .save-memory__button {
